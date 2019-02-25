@@ -8,11 +8,7 @@ if n > 100 or n < 0:
 for i in range(n):
     m = int(input('введите числа'))
     if m < 0:
-        o += 1
-        for g in range(o):
-            a.append(m)
+        a.append(m)
     else:
-        p += 1
-        for l in range(p):
-            b.append(m)
+        b.append(m)
 print(a , b)
